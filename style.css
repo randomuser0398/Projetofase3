@@ -69,6 +69,7 @@ main {
 /* Slots */
 .slot-grid {
   display: flex;
+ flex-direction: row;
   gap: 30px;
   justify-content: center;
   margin: 20px 0;
@@ -130,10 +131,18 @@ footer {
 }
 
 /* Responsivo */
-@media (max-width: 600px) {
+@@media (max-width: 600px) {
   .slot-grid {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .slot {
+    font-size: 3rem;
+    margin: 0;
+  }
   }
 
   .slot {
