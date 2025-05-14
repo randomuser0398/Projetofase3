@@ -1,0 +1,30 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('pirate_bg.png') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+header, nav, footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  text-align: center;
+}
+.slot-grid {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+.slot {
+  font-size: 3rem;
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
