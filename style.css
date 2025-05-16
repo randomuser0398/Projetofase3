@@ -150,3 +150,19 @@ footer {
     margin-bottom: 15px;
   }
   }
+.mensagem-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.mensagem-retangulo {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fffacd;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  min-width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px #000;
+}
