@@ -33,9 +33,13 @@ function girarSlots() {
   saldoAtual += premio;
   setSaldo(saldoAtual);
   if (premio > 0) {
-    alert(`Parabéns! Você ganhou R$ ${premio.toFixed(2)}!`);
-  } else {
-    alert('Tente novamente!');
+    function mostrarMensagem(texto) {
+  const msg = document.getElementById('mensagem-resultado');
+  msg.textContent = texto;
+}
+
+// Exemplo de uso:
+mostrarMensagem("Você ganhou R$ 100!");;
   }
 }
 document.addEventListener('DOMContentLoaded', () => {
