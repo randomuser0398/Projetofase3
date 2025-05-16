@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Painel Administrativo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="top-nav">
+    <a href="index.html">Cassino</a>
+    <a href="carteira.html">Carteira</a>
+    <a href="regras.html">Regras</a>
+    <a href="admin.html">Admin</a>
+  </nav>
+
+  <main class="admin-panel">
+    <h1>Painel Administrativo</h1>
+
+    <section class="stats">
+      <div class="card">
+        <h2>Total arrecadado</h2>
+        <p id="total-arrecadado">R$ 0,00</p>
+      </div>
+      <div class="card">
+        <h2>Total pago</h2>
+        <p id="total-pago">R$ 0,00</p>
+      </div>
+      <div class="card">
+        <h2>Acúmulo Jackpot</h2>
+        <p id="jackpot-acumulado">R$ 0,00</p>
+      </div>
+    </section>
+
+    <section>
+      <button id="reset-stats">Resetar Estatísticas</button>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>
